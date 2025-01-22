@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>PokeFetch</title>
+</head>
+
+<body class="bs-body-bg">
+    <div class="container">
+        <h1 class="">Consulta información sobre tu pokemon favorito!</h1>
+
+        <div>
+            <form>
+                <div class="mb-3">
+                    <label for="" class="form-label">Nombre del pokemon</label>
+                    <input type="text" class="form-control" name="pokemonName" id="pokemonName"
+                        aria-describedby="helpId" placeholder="" />
+                    <small id="helpId" class="form-text text-muted">Ingresa el nombre del pokemon que deseas
+                        buscar</small>
+                </div>
+                <button type="submit" class="btn btn-primary" id="sendName">
+                    Buscar
+                </button>
+
+            </form>
+            <div id="staus"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
