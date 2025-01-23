@@ -10,23 +10,12 @@
 
 <body class="bs-body-bg">
     <div class="container">
-        <h1 class="">Consulta información sobre tu pokemon favorito!</h1>
-
+        <h1 class="">Elige tu pokemon!</h1>
+            <div class="pokemonOptions" id="pokemonOptions"></div>
         <div>
-            <form>
-                <div class="mb-3">
-                    <label for="" class="form-label">Nombre del pokemon</label>
-                    <input type="text" class="form-control" name="pokemonName" id="pokemonName"
-                        aria-describedby="helpId" placeholder="" />
-                    <small id="helpId" class="form-text text-muted">Ingresa el nombre del pokemon que deseas
-                        buscar</small>
-                </div>
-                <button type="submit" class="btn btn-primary" id="sendName">
-                    Buscar
-                </button>
-
-            </form>
-            <div id="staus"></div>
+            <h2>Pokemon seleccionado!</h2>
+            <button id="clear-selection" class="clear-button">Borrar pokemon</button>
+            <div id="selected-cards"></div>
         </div>
     </div>
     <script src="index.js"></script>
